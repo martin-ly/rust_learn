@@ -3,5 +3,37 @@
 version = 3
 
 [[package]]
-name = "rust_learn"
+name = "exception_error"
+version = "0.1.0"
+
+[[package]]
+name = "flow_control"
+version = "0.1.0"
+
+[[package]]
+name = "function"
+version = "0.1.0"
+
+[[package]]
+name = "generics"
+version = "0.1.0"
+
+[[package]]
+name = "lang"
+version = "0.1.0"
+
+[[package]]
+name = "process"
+version = "0.1.0"
+
+[[package]]
+name = "thread"
+version = "0.1.0"
+
+[[package]]
+name = "types"
+version = "0.1.0"
+
+[[package]]
+name = "variables"
 version = "0.1.0"
