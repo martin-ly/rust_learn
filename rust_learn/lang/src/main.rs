@@ -7,12 +7,24 @@ fn used_function() {}
 fn unused_function() {}
 
 
-
+// std library
 use rand::Rng;
 use std::cmp::Ordering;
 use std::io;
 
+// root mod define
+pub mod  c00_variables;
+
+//
+
+// mod that be used.
+use c00_variables::uninitialized as c00;
+//
+
 fn main() {
+
+    c00::initialized();
+
     used_function();
     println!("Hello, world!");
 
@@ -48,7 +60,5 @@ fn main() {
             Ordering::Equal => {println!("You win!");break;},
         }        
     }
-
-
 
 }

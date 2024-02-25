@@ -1,5 +1,4 @@
 
-
 // Fix the error below with least amount of modification to the code
 pub fn initialized() -> (){
     let x: i32 = 5; // Uninitialized but used, ERROR !
@@ -7,4 +6,5 @@ pub fn initialized() -> (){
 
     assert_eq!(x, 5);
     println!("Success!");
-}
+}    
+
