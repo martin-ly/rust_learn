@@ -1,5 +1,7 @@
 
 
-fn main(){
-    println!("another-executable")
+use lang::c00_variables::uninitialized as c00;
+fn main()->(){
+    c00::initialized();
+    println!("bin/test")
 }

@@ -12,8 +12,8 @@ use rand::Rng;
 use std::cmp::Ordering;
 use std::io;
 
-// root mod define
-pub mod  c00_variables;
+// // root mod define
+mod  c00_variables;
 
 // mod that be used.
 use c00_variables::uninitialized as c00;
