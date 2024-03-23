@@ -1,4 +1,4 @@
-use c00_variables as c00;
+use lang::c00_variables as c00;
 
 
 fn test(){
