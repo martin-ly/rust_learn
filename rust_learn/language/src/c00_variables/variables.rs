@@ -18,3 +18,23 @@
     Destructuring assignments
         
 */
+
+
+
+// Global variable with 'static lifetime, single memory location.
+static X: T = T();
+
+// Defines constant, copied into a temporary when used.
+const X: T = T();
+
+fn test() -> !{
+    // Allocate T bytes on stack bound as x . Assignable once, not mutable.
+    let x: T;
+
+    // Like let , but allow for mutability and mutable borrow.
+    let mut x: T;
+
+    // Moves y to x , inval. y if T is not Copy , and copying y otherwise.
+    x = y
+}
+

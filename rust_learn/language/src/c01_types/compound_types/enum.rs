@@ -9,3 +9,14 @@ enum E1 {
     B(),
     c{}
 }
+
+// If variants are only unit-like, allow discriminant values, e.g., for FFI.
+enum E2 {
+    A = 1
+}
+
+// Enum w/o variants is uninhabited, can't be created, c. 'never'
+enum E3 {
+
+}
+
