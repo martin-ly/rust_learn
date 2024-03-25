@@ -9,21 +9,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd"
 
 [[package]]
-name = "exception_error"
-version = "0.1.0"
-dependencies = [
- "lang",
-]
-
-[[package]]
-name = "flow_control"
-version = "0.1.0"
-
-[[package]]
-name = "function"
-version = "0.1.0"
-
-[[package]]
 name = "generics"
 version = "0.1.0"
 
@@ -39,7 +24,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "lang"
+name = "language"
 version = "0.1.0"
 dependencies = [
  "rand",
@@ -93,14 +78,6 @@ dependencies = [
 
 [[package]]
 name = "thread"
-version = "0.1.0"
-
-[[package]]
-name = "types"
-version = "0.1.0"
-
-[[package]]
-name = "variables"
 version = "0.1.0"
 
 [[package]]

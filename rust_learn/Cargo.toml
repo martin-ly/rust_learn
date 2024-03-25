@@ -1,15 +1,10 @@
 [workspace]
 
 members = [
-    "lang",
-    "variables",
-    "flow_control",
-    "exception_error",
-    "types",
+    "language",
     "generics",
     "thread",
     "process",
-    "function",
 ]
 
 resolver = "2"
