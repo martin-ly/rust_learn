@@ -5,7 +5,7 @@
 fn f1<T>(){}
 fn f2<T:sized>(){}
 
-//！ ?Sized就表示UnSized类型
+//！ ?Sized就表示sized or UnSized类型
 //！ UnSized表示编译期间 无法明确其类型的内存大小 由运行期管理
 fn f3<T:?sized>(){}
 
